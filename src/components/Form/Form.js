@@ -3,8 +3,8 @@ import './Form.css'
 export default function Form() {
   return (
     <div>
-        <h1>Registeration Form</h1>
-    <p>Please fill the form with required details</p>
+        <h1>Registration Form</h1>
+    <p>Please fill with required credentials</p>
     <form >
         <fieldset name="Registeration Form">
           <label for="fname">First  Name :
