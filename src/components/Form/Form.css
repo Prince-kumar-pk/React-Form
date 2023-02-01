@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+
+}
+body{
+    background:url('mountain.jpg');
+    background-size: cover;
+}
+
+h1, p{
+  
+   text-align: center;
+}
+form{
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f1f1f173;
+}
+
+input {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(15, 2, 37);
+  background: rgb(153, 213, 239);
+}
+label{
+    font-size: large;
+    font-weight: bold;
+}
+#check{
+    width: auto;
+   border: 2px solid black;
+  }
+
+input:focus {
+border: 2px solid black;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+.registerbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+span{
+    font-size: 20px;
+}
+
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
